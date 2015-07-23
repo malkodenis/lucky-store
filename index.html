@@ -1,32 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
 <head lang="en">
     <meta charset="UTF-8">
     <title>Lucky Store</title>
 
     <!-- Bootstrap init start -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- Bootstrap init end -->
 
+    <!-- Angular init -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/app.min.css"/>
+
+    <!-- Custom scripts -->
+    <script src="assets/js/app.min.js"></script>
 </head>
 <body>
-    <h1>Lucky Store</h1>
-    <h2>Lucky Store</h2>
-    <h3>Lucky Store</h3>
-    <p>Short description lorem ipsum dolor amit.</p>
-    <p>Short <a href="#">description lorem</a> ipsum dolor amit.</p>
-    <p>Short description lorem ipsum dolor amit.</p>
-    <p>Short description lorem ipsum dolor amit.</p>
-    <ul>
-        <li>Short description lorem ipsum dolor amit.</li>
-        <li>Short description lorem ipsum dolor amit.</li>
-        <li>Short description lorem ipsum dolor amit.</li>
-        <li>Short description lorem ipsum dolor amit.</li>
-        <li>Short description lorem ipsum dolor amit.</li>
-    </ul>
-    <form action="#">
-        <button class="btn" type="submit">Submit</button>
-    </form>
+    <!-- Header -->
+    <header>
+        <h1>Lucky Store</h1>
+    </header>
+    <!-- Article -->
+    <article>
+        <p>Short description lorem ipsum dolor amit.</p>
+        Nothing here {{'yet' + '!'}}
+    </article>
+    <!-- Footer -->
+    <footer>
+        <p>footer</p>
+    </footer>
 </body>
 </html>

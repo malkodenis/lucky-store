@@ -2,3 +2,4 @@
 .idea/
 dev/
 bower_components/
+node_modules/
