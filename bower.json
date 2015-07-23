@@ -1,0 +1,27 @@
+{
+  "name": "lucky-store",
+  "version": "0.0.1",
+  "homepage": "https://github.com/malkodenis/lucky-store",
+  "authors": [
+    "dmalko <dmalko@speroteck.com>"
+  ],
+  "description": "angular test project",
+  "keywords": [
+    "angular",
+    "bower",
+    "grunt"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "*",
+    "angular": "*",
+    "angular-route": "*"
+  }
+}
